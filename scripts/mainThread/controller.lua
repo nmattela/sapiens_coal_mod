@@ -6,9 +6,8 @@ local eventManager = mjrequire "hammerstone/event/eventManager"
 local eventTypes = mjrequire "hammerstone/event/eventTypes"
 
 function mod:onload(controller)
-	local sapiensPlusPlus = mjrequire "sapiens-pp/sapiensPlusPlus"
-	eventManager:bind(eventTypes.init, sapiensPlusPlus.init)
-	eventManager:bind(eventTypes.worldLoad, sapiensPlusPlus.worldinit)
+    local coal = mjrequire "nmattela/coal"
+    eventManager:bind(eventTypes.init, coal.init)
 end
 
 return mod
