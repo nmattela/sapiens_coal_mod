@@ -1,6 +1,6 @@
 local modInfo = {
-    name = "Charcoal",
-    description = "Adds charcoal to the game. A more efficient, long-lasting fuel",
+    name = "Coal mod",
+    description = "Adds coal and charcoal to the game: More efficient, long-lasting fuel types",
     type = "world",
     developer = "Philofobia"
   }
