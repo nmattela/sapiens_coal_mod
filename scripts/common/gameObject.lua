@@ -38,7 +38,7 @@ function mod:onload(gameObject)
         mj:log("Coal Mod in gameObject.lua: Charcoal added successfully!")
 
 
-        super_mjInit()
+        super_mjInit(self)
     end
 end
 

@@ -9,7 +9,7 @@ local mat3Identity = mjm.mat3Identity
 local mat3Rotate = mjm.mat3Rotate
 local mat3Inverse = mjm.mat3Inverse
 
--- local gameObject = mjrequire "common/gameObject"
+local gameObject = mjrequire "common/gameObject"
 local constructable = mjrequire "common/constructable"
 local actionSequence = mjrequire "common/actionSequence"
 local skill = mjrequire "common/skill"
@@ -50,54 +50,13 @@ end
 
 function mod:onload(craftable)
 
-    -- mj:log("Coal Mod in craftable.lua: Adding craftable recipe for charcoal... ")
-
-    -- constructable:addConstructable("charcoal", {
-    --     name = "charcoal",
-    --     plural = "charcoals",
-    --     summary = "Charcoal is a fuel that lasts longer than branches or logs",
-    --     iconGameObjectType = gameObject.typeIndexMap.charcoal,
-    --     classification = constructable.classifications.craft.index,
-    --     isFoodPreperation = true,
-
-    --     outputObjectInfo = {
-    --         objectTypesArray = {
-    --             gameObject.typeIndexMap.charcoal,
-    --             gameObject.typeIndexMap.charcoal,
-    --         }
-    --     },
-        
-    --     outputDisplayCount = 2,
-
-    --     buildSequence = createStandardBuildSequence(actionSequence.types.fireStickCook.index, nil),
-    --     inProgressBuildModel = "craftSimple",
-
-    --     skills = {
-    --         required = skill.types.campfireCooking.index,
-    --     },
-
-    --     requiredResources = {
-    --         {
-    --             type = resource.types.branch.index,
-    --             count = 3,
-    --         },
-    --     },
-
-    --     requiredCraftAreaGroups = {
-    --         craftAreaGroup.types.campfire.index,
-    --     },
-
-    --     temporaryToolObjectType = gameObject.typeIndexMap.stick,
-    --     temporaryToolOffset = vec3xMat3(vec3(-0.35,0.0,0.0), cookingStickRotationOffset),
-    --     temporaryToolRotation = cookingStickRotation,
-    -- })
-
-    -- mj:log("Coal Mod in craftable.lua: Craftable recipe for charcoal added succesfully!...")
-
     super_load = craftable.load
 
     craftable.load = function(self, gameObject, flora)
-        super_load()
+        
+        super_load(self, gameObject, flora)
+
+        mj:log("Coal Mod in craftable.lua: Adding craftable recipe for charcoal... ")
 
         constructable:addConstructable("charcoal", {
             name = "charcoal",
@@ -120,7 +79,7 @@ function mod:onload(craftable)
             inProgressBuildModel = "craftSimple",
     
             skills = {
-                required = skill.types.campfireCooking.index,
+                required = skill.types.fireLighting.index,
             },
     
             requiredResources = {
@@ -138,6 +97,8 @@ function mod:onload(craftable)
             temporaryToolOffset = vec3xMat3(vec3(-0.35,0.0,0.0), cookingStickRotationOffset),
             temporaryToolRotation = cookingStickRotation,
         })
+
+        mj:log("Coal Mod in craftable.lua: Craftable recipe for charcoal added succesfully!")
     end
 end
 
