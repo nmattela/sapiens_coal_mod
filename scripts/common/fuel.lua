@@ -134,24 +134,7 @@ function mod:onload(fuel)
     local super_mjInit = fuel.mjInit
 
     fuel.mjInit = function(self)
-
         fuel:finalize()
-
-        -- super_mjInit(self)
-
-        -- mj:log("Coal Mod in fuel.lua: Adding fuel addition to campfires... ")
-        -- fuel.groupsByObjectTypeIndex[gameObject.types.campfire.index].resources[resource.types.charcoal.index] = { fuelAddition = 20.0 }
-        -- mj:log("Coal Mod in fuel.lua: Adding fuel addition to torches... ")
-        -- fuel.groupsByObjectTypeIndex[gameObject.types.torch.index].resources[resource.types.charcoal.index] = { fuelAddition = 20.0 }
-        -- mj:log("Coal Mod in fuel.lua: Adding fuel addition to brickKiln... ")
-        -- fuel.groupsByObjectTypeIndex[gameObject.types.brickKiln.index].resources[resource.types.charcoal.index] = { fuelAddition = 20.0 }
-        -- mj:log("Coal Mod in fuel.lua: Fuel addition added succesfully! ")
-
-        -- mj:log("Coal Mod in fuel.lua: Printing groupsByObjectTypeIndex... ")
-        -- mj:log(fuel.groupsByObjectTypeIndex)
-        
-
-
     end
 end
 
