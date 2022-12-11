@@ -9,4 +9,3 @@ local modInfo = {
 }
 
 return modInfo 
-

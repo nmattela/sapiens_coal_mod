@@ -8,7 +8,6 @@ local resource = mjrequire "common/resource"
 local locale = mjrequire "common/locale"
 
 function mod:onload(fuel)
-
     mj:log("Coal mod in fuel.lua: Adding fuel types...")
 
     fuel:addFuelType("charcoal", {
@@ -18,7 +17,6 @@ function mod:onload(fuel)
     })
 
     mj:log("Coal mod in fuel.lua: Fuel types added!")
-
 end
 
 return mod
