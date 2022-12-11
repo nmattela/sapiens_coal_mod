@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/SapiensCoalMod.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/SapiensCoalMod.dir/objects.a @CMakeFiles/SapiensCoalMod.dir/objects1
+/usr/bin/x86_64-w64-mingw32-gcc -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -O2 -pipe -fno-plt -fexceptions --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fcf-protection -Wl,-O1,--sort-common,--as-needed -fstack-protector -shared -o libSapiensCoalMod.dll -Wl,--out-implib,libSapiensCoalMod.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles/SapiensCoalMod.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/SapiensCoalMod.dir/linkLibs.rsp

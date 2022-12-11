@@ -1,0 +1,3 @@
+/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles/SapiensCoalMod.dir
+/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles/edit_cache.dir
+/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles/rebuild_cache.dir
