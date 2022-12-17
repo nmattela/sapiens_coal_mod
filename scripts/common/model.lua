@@ -7,6 +7,10 @@ function mod:onload(model)
         dirt = "coal"
     }
 
+    model.remapModels.dirt.charcoal = {
+        dirt = "charcoal"
+    }
+
     
 end
 

@@ -2,10 +2,12 @@ local mod = {
     loadOrder = 1
 }
 
-local terrainTypesModule = mjrequire "common/terrainTypes"
-local terrainBaseTypes = terrainTypesModule.baseTypes
 
 function mod:onload(flora)
+
+    local terrainTypesModule = mjrequire "common/terrainTypes"
+    local terrainBaseTypes = terrainTypesModule.baseTypes
+    
     flora.mediumTypes[terrainBaseTypes.coal.index] = {
         soilQuality = flora.soilQualities.veryPoor
     }
