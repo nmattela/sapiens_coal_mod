@@ -260,16 +260,16 @@ DEVELOPER_URL:STRING=https://mattelaer.dev
 MOD_ID:STRING=SapiensCoalMod
 
 //Major version of the mod
-MOD_MAJOR_VERSION:STRING=1
+MOD_MAJOR_VERSION:STRING=0
 
 //Minor version of the mod
-MOD_MINOR_VERSION:STRING=2
+MOD_MINOR_VERSION:STRING=1
 
 //Name of the mod
 MOD_NAME:STRING=Sapiens Coal Mod
 
 //Patch version of the mod
-MOD_PATCH_VERSION:STRING=3
+MOD_PATCH_VERSION:STRING=0
 
 //Type of the mod, can be world or app. Should always be world
 // for c mods.
