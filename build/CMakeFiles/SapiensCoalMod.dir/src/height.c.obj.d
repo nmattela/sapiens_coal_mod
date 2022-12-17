@@ -1,8 +1,8 @@
 CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: \
- /home/nmattela/Documents/sapiens-c-test/src/height.c \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPHeight.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPCommon.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPMath.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/height.c \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPHeight.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPCommon.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPMath.h \
  /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  /usr/x86_64-w64-mingw32/include/stdint.h \
  /usr/x86_64-w64-mingw32/include/crtdefs.h \
@@ -16,4 +16,4 @@ CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: \
  /usr/x86_64-w64-mingw32/include/stddef.h \
  /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
  /usr/x86_64-w64-mingw32/include/math.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPNoise.h
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPNoise.h

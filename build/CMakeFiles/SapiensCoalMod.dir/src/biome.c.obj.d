@@ -1,8 +1,8 @@
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: \
- /home/nmattela/Documents/sapiens-c-test/src/biome.c \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPBiome.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPCommon.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPMath.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/biome.c \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPBiome.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPCommon.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPMath.h \
  /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdint.h \
  /usr/x86_64-w64-mingw32/include/stdint.h \
  /usr/x86_64-w64-mingw32/include/crtdefs.h \
@@ -16,5 +16,14 @@ CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: \
  /usr/x86_64-w64-mingw32/include/stddef.h \
  /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/stdbool.h \
  /usr/x86_64-w64-mingw32/include/math.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPNoise.h \
- /home/nmattela/Documents/sapiens-c-test/splugins/include/SPRand.h
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPNoise.h \
+ /home/nmattela/Documents/sapiens_coal_mod/src/SPRand.h \
+ /usr/x86_64-w64-mingw32/include/stdlib.h \
+ /usr/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include-fixed/syslimits.h \
+ /usr/x86_64-w64-mingw32/include/limits.h \
+ /usr/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ /usr/x86_64-w64-mingw32/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/12.2.0/include/mm_malloc.h \
+ /usr/x86_64-w64-mingw32/include/errno.h

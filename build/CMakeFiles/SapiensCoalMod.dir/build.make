@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nmattela/Documents/sapiens-c-test
+CMAKE_SOURCE_DIR = /home/nmattela/Documents/sapiens_coal_mod
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nmattela/Documents/sapiens-c-test/build
+CMAKE_BINARY_DIR = /home/nmattela/Documents/sapiens_coal_mod/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SapiensCoalMod.dir/depend.make
@@ -71,33 +71,33 @@ include CMakeFiles/SapiensCoalMod.dir/flags.make
 
 CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: CMakeFiles/SapiensCoalMod.dir/flags.make
 CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: CMakeFiles/SapiensCoalMod.dir/includes_C.rsp
-CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: /home/nmattela/Documents/sapiens-c-test/src/height.c
+CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: /home/nmattela/Documents/sapiens_coal_mod/src/height.c
 CMakeFiles/SapiensCoalMod.dir/src/height.c.obj: CMakeFiles/SapiensCoalMod.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SapiensCoalMod.dir/src/height.c.obj"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SapiensCoalMod.dir/src/height.c.obj -MF CMakeFiles/SapiensCoalMod.dir/src/height.c.obj.d -o CMakeFiles/SapiensCoalMod.dir/src/height.c.obj -c /home/nmattela/Documents/sapiens-c-test/src/height.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmattela/Documents/sapiens_coal_mod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/SapiensCoalMod.dir/src/height.c.obj"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SapiensCoalMod.dir/src/height.c.obj -MF CMakeFiles/SapiensCoalMod.dir/src/height.c.obj.d -o CMakeFiles/SapiensCoalMod.dir/src/height.c.obj -c /home/nmattela/Documents/sapiens_coal_mod/src/height.c
 
 CMakeFiles/SapiensCoalMod.dir/src/height.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiensCoalMod.dir/src/height.c.i"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nmattela/Documents/sapiens-c-test/src/height.c > CMakeFiles/SapiensCoalMod.dir/src/height.c.i
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nmattela/Documents/sapiens_coal_mod/src/height.c > CMakeFiles/SapiensCoalMod.dir/src/height.c.i
 
 CMakeFiles/SapiensCoalMod.dir/src/height.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiensCoalMod.dir/src/height.c.s"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nmattela/Documents/sapiens-c-test/src/height.c -o CMakeFiles/SapiensCoalMod.dir/src/height.c.s
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nmattela/Documents/sapiens_coal_mod/src/height.c -o CMakeFiles/SapiensCoalMod.dir/src/height.c.s
 
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: CMakeFiles/SapiensCoalMod.dir/flags.make
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: CMakeFiles/SapiensCoalMod.dir/includes_C.rsp
-CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: /home/nmattela/Documents/sapiens-c-test/src/biome.c
+CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: /home/nmattela/Documents/sapiens_coal_mod/src/biome.c
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj: CMakeFiles/SapiensCoalMod.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj -MF CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj.d -o CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj -c /home/nmattela/Documents/sapiens-c-test/src/biome.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nmattela/Documents/sapiens_coal_mod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj"
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj -MF CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj.d -o CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj -c /home/nmattela/Documents/sapiens_coal_mod/src/biome.c
 
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SapiensCoalMod.dir/src/biome.c.i"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nmattela/Documents/sapiens-c-test/src/biome.c > CMakeFiles/SapiensCoalMod.dir/src/biome.c.i
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nmattela/Documents/sapiens_coal_mod/src/biome.c > CMakeFiles/SapiensCoalMod.dir/src/biome.c.i
 
 CMakeFiles/SapiensCoalMod.dir/src/biome.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SapiensCoalMod.dir/src/biome.c.s"
-	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nmattela/Documents/sapiens-c-test/src/biome.c -o CMakeFiles/SapiensCoalMod.dir/src/biome.c.s
+	/usr/bin/x86_64-w64-mingw32-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nmattela/Documents/sapiens_coal_mod/src/biome.c -o CMakeFiles/SapiensCoalMod.dir/src/biome.c.s
 
 # Object files for target SapiensCoalMod
 SapiensCoalMod_OBJECTS = \
@@ -110,14 +110,14 @@ SapiensCoalMod_EXTERNAL_OBJECTS =
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/src/height.c.obj
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/build.make
-libSapiensCoalMod.dll: /home/nmattela/Documents/sapiens-c-test/splugins/lib/SPCommon.lib
+libSapiensCoalMod.dll: /home/nmattela/Documents/sapiens_coal_mod/splugins/lib/SPCommon.lib
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/linkLibs.rsp
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/objects1
 libSapiensCoalMod.dll: CMakeFiles/SapiensCoalMod.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nmattela/Documents/sapiens-c-test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libSapiensCoalMod.dll"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nmattela/Documents/sapiens_coal_mod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libSapiensCoalMod.dll"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SapiensCoalMod.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E copy_if_different /home/nmattela/Documents/sapiens-c-test/preview.png /home/nmattela/Documents/sapiens-c-test/build/SapiensCoalMod/preview.png
-	/usr/bin/cmake -E copy_if_different /home/nmattela/Documents/sapiens-c-test/build/libSapiensCoalMod.dll /home/nmattela/Documents/sapiens-c-test/build/SapiensCoalMod/lib/libSapiensCoalMod.dll
+	/usr/bin/cmake -E copy_if_different /home/nmattela/Documents/sapiens_coal_mod/preview.png /home/nmattela/Documents/sapiens_coal_mod/build/SapiensCoalMod/preview.png
+	/usr/bin/cmake -E copy_if_different /home/nmattela/Documents/sapiens_coal_mod/build/libSapiensCoalMod.dll /home/nmattela/Documents/sapiens_coal_mod/build/SapiensCoalMod/lib/libSapiensCoalMod.dll
 
 # Rule to build all files generated by this target.
 CMakeFiles/SapiensCoalMod.dir/build: libSapiensCoalMod.dll
@@ -128,6 +128,6 @@ CMakeFiles/SapiensCoalMod.dir/clean:
 .PHONY : CMakeFiles/SapiensCoalMod.dir/clean
 
 CMakeFiles/SapiensCoalMod.dir/depend:
-	cd /home/nmattela/Documents/sapiens-c-test/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nmattela/Documents/sapiens-c-test /home/nmattela/Documents/sapiens-c-test /home/nmattela/Documents/sapiens-c-test/build /home/nmattela/Documents/sapiens-c-test/build /home/nmattela/Documents/sapiens-c-test/build/CMakeFiles/SapiensCoalMod.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nmattela/Documents/sapiens_coal_mod/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nmattela/Documents/sapiens_coal_mod /home/nmattela/Documents/sapiens_coal_mod /home/nmattela/Documents/sapiens_coal_mod/build /home/nmattela/Documents/sapiens_coal_mod/build /home/nmattela/Documents/sapiens_coal_mod/build/CMakeFiles/SapiensCoalMod.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SapiensCoalMod.dir/depend
 

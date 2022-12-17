@@ -8,9 +8,22 @@ local vec3 = mjm.vec3
 function mod:onload(material)
     mj:insertIndexed(material.types, {
         key = "charcoal",
-        color = vec3(0.19,0.14,0.05) * 0.8,
-        roughness = 1.0,
-        metal = 0.0
+        color = vec3(0,0,0),
+        roughness = 1.1,
+        metal = 1.1,
+        colorB = vec3(0,0,0),
+        roughnessB = 1.1 * 0.9,
+        metalB = 1.1
+    })
+
+    mj:insertIndexed(material.types, {
+        key ="coal",
+        color = vec3(0,0,0),
+        roughness = 1.1,
+        metal = 1.1,
+        colorB = vec3(0,0,0),
+        roughnessB = 1.1 * 0.9,
+        metalB = 1.1
     })
 end
 

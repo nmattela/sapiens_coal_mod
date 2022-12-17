@@ -11,14 +11,9 @@ local mat3Rotate = mjm.mat3Rotate
 
 function mod:onload(gameObject)
 
-
-    mj:log("Coal Mod in gameObject.lua: Doing init...")
-
-    super_mjInit = gameObject.mjInit
+    local super_mjInit = gameObject.mjInit
 
     gameObject.mjInit = function(self)
-
-        mj:log("Coal Mod in gameObject.lua: About to add charcoal...")
         gameObject:addGameObject("charcoal", {
             modelName = "charcoal",
             name = "charcoal",
@@ -35,7 +30,23 @@ function mod:onload(gameObject)
                 }
             },
         })
-        mj:log("Coal Mod in gameObject.lua: Charcoal added successfully!")
+
+        gameObject:addGameObject("coal", {
+            modelName = "coal",
+            name = "coal",
+            plural = "coals",
+            scale = 1.0,
+            hasPhysics = true,
+            resourceTypeIndex = resource.types.coal.index,
+            objectViewRotationFunction = function(object)
+                return mat3Rotate(mat3Identity, 0.1, vec3(1.0, 0.0, 0.0))
+            end,
+            markerPositions = {
+                {
+                    worldOffset = vec3(0.0, mj:mToP(0.2), 0.0)
+                }
+            },
+        })
 
 
         super_mjInit(self)

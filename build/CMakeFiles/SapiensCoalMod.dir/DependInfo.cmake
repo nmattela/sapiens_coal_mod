@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nmattela/Documents/sapiens-c-test/src/biome.c" "CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj" "gcc" "CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj.d"
-  "/home/nmattela/Documents/sapiens-c-test/src/height.c" "CMakeFiles/SapiensCoalMod.dir/src/height.c.obj" "gcc" "CMakeFiles/SapiensCoalMod.dir/src/height.c.obj.d"
+  "/home/nmattela/Documents/sapiens_coal_mod/src/biome.c" "CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj" "gcc" "CMakeFiles/SapiensCoalMod.dir/src/biome.c.obj.d"
+  "/home/nmattela/Documents/sapiens_coal_mod/src/height.c" "CMakeFiles/SapiensCoalMod.dir/src/height.c.obj" "gcc" "CMakeFiles/SapiensCoalMod.dir/src/height.c.obj.d"
   )
 
 # Targets to which this target links.

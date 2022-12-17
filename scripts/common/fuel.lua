@@ -16,6 +16,12 @@ function mod:onload(fuel)
         torch = 20.0
     })
 
+    fuel:addFuelType("coal", {
+        campfire = 20.0,
+        kiln = 20.0,
+        torch = 20.0
+    })
+
     mj:log("Coal mod in fuel.lua: Fuel types added!")
 end
 

@@ -56,8 +56,6 @@ function mod:onload(craftable)
         
         super_load(self, gameObject, flora)
 
-        mj:log("Coal Mod in craftable.lua: Adding craftable recipe for charcoal... ")
-
         constructable:addConstructable("charcoal", {
             name = "charcoal",
             plural = "charcoals",
@@ -97,8 +95,6 @@ function mod:onload(craftable)
             temporaryToolOffset = vec3xMat3(vec3(-0.35,0.0,0.0), cookingStickRotationOffset),
             temporaryToolRotation = cookingStickRotation,
         })
-
-        mj:log("Coal Mod in craftable.lua: Craftable recipe for charcoal added succesfully!")
     end
 end
 
