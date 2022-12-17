@@ -32,7 +32,7 @@ function mod:onload(terrainTypes)
 		disableSpawn = false,
     })
 
-    terrainTypes:addVariations("coal", {
+    terrainTypes:addVariation("coal", {
         name = "coal"
     })
 end
