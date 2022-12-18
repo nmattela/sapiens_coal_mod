@@ -1,3 +1,5 @@
+!!! This mod requires Hammerstone !!!
+
 # Sapiens Coal Mod
 
 This mod adds coal and charcoal to the game: More efficient, long-lasting fuel types.
