@@ -25,6 +25,23 @@ function mod:onload(resource)
             displayGameObjectTypeIndex = gameObjectTypeIndexMap.coal
         })
 
+        resource.validTypes = typeMaps:createValidTypesArray("resource", resource.types)
+
+        local function addResourceToResourcePanel(key)
+            for index, value in ipairs(resource.validTypes) do
+                if value.key ~= nil and value.key == key then
+                    table.insert(resource.alphabeticallyOrderedTypes, resource.validTypes[index])
+                    table.sort(resource.alphabeticallyOrderedTypes, function(a, b)
+                        return a.name < b.name
+                    end)
+                    break
+                end
+            end
+        end
+
+        addResourceToResourcePanel("coal")
+        addResourceToResourcePanel("charcoal")
+
         resource:addResourceGroup("campfireFuel", {
             name = locale:get("resource_group_campfireFuel"),
             plural = locale:get("resource_group_campfireFuel_plural"),
